@@ -1,0 +1,24 @@
+2012-08-24 00:35:21+0300 [iherb] INFO: Closing spider (finished)
+2012-08-24 00:35:21+0300 [iherb] INFO: Stored csv feed (17673 items) in: iherb.csv
+2012-08-24 00:35:21+0300 [iherb] INFO: Dumping spider stats:
+	{'downloader/exception_count': 90,
+	 'downloader/exception_type_count/twisted.internet.defer.TimeoutError': 88,
+	 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 2,
+	 'downloader/request_bytes': 7165807,
+	 'downloader/request_count': 20950,
+	 'downloader/request_method_count/GET': 20950,
+	 'downloader/response_bytes': 433047228,
+	 'downloader/response_count': 20860,
+	 'downloader/response_status_count/200': 20826,
+	 'downloader/response_status_count/408': 34,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2012, 8, 23, 21, 35, 21, 179951),
+	 'item_scraped_count': 17673,
+	 'request_depth_max': 4,
+	 'scheduler/memory_enqueued': 20950,
+	 'spider_exceptions/IndexError': 125,
+	 'start_time': datetime.datetime(2012, 8, 23, 19, 52, 24, 945464)}
+2012-08-24 00:35:21+0300 [iherb] INFO: Spider closed (finished)
+2012-08-24 00:35:21+0300 [scrapy] INFO: Dumping global stats:
+	{'memusage/max': 52641792, 'memusage/startup': 28852224}
+
